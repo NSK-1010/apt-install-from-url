@@ -5,9 +5,9 @@ set -e
 DEB_PATH="$(mktemp)"
 curl -L -o "$DEB_PATH" $1
 if [ `whoami` = "root" ] ; then
-    dpkg -i "$DEB_PATH"
+    apt install "$DEB_PATH"
 else
-    sudo dpkg -i "$DEB_PATH"
+    sudo apt install "$DEB_PATH"
 fi
 
 rm -f "$DEB_URL"
