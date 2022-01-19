@@ -10,4 +10,4 @@ else
     sudo apt install "$DEB_PATH"
 fi
 
-rm -f "$DEB_URL"
+rm -f "$DEB_PATH"
