@@ -3,11 +3,11 @@
 ## Usage
 
 ``` console
-$ curl -L https://git.io/dpkg-i-from-url | sh -s -- [DEB_URL]
+$ curl -L https://git.io/apt-install-from-url | sh -s -- [DEB_URL]
 ```
 
 ## Requirements
 
 - curl
-- dpkg
+- apt
 - sudo ( optional )
